@@ -13,7 +13,8 @@ var React = require('react');
 var About = (props) => {
   return(
     <div>
-      <h3>About Component with arrow function for stateless component</h3>
+      <h3>About</h3>
+      <p>About page</p>
     </div>
   )
 }

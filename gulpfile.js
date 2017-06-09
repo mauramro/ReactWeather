@@ -22,4 +22,4 @@ gulp.task("watch", function(){
 
 });
 
-gulp.task("all", ["connect", "webpack", "watch"]);
+gulp.task("default", ["connect", "webpack", "watch"]);
