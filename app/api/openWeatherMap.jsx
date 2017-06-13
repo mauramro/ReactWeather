@@ -14,8 +14,9 @@ module.exports = {
       } else {
         return res.data.main.temp;
       }
-    }, function(res){
-      throw new Error("City not found", res);
+    }, function(err){
+      // throw new Error(err.response.data.message);
+      throw new Error("City not found", err);
     })
   }
 }
